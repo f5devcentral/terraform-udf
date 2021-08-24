@@ -12,8 +12,6 @@ This Terraform module interacts with the UDF metadata api.
 
 ## Outputs
 
-## Outputs
-
 | Name            | Description                         |
 | --------------- | ----------------------------------- |
 | accountId       | AWS account ID                      |
@@ -26,7 +24,6 @@ This Terraform module interacts with the UDF metadata api.
 | services        | Supported AWS services              |
 | roleArn         | AWS Role ARN                        |
 | instanceArn     | AWS Instance ARN                    |
-| --------------- | ----------------------------------- |
 
 ## Support
 
