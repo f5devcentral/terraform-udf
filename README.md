@@ -10,6 +10,18 @@ This Terraform module interacts with the UDF metadata api.
 
 - [Terraform](https://www.terraform.io/downloads.html) 0.12.x
 
+## Example
+
+```hcl
+terraform {
+  required_version = ">= 0.12.0"
+}
+
+module "udf" {
+  source = "github.com/f5devcentral/terraform-udf"
+}
+```
+
 ## Outputs
 
 | Name            | Description                         |
