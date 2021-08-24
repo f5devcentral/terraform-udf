@@ -6,9 +6,27 @@ A Terraform module for F5's Unified Demo Framework
 
 This Terraform module interacts with the UDF metadata api.
 
-## Getting Started
+## Requirements
 
-TBD
+- [Terraform](https://www.terraform.io/downloads.html) 0.12.x
+
+## Outputs
+
+## Outputs
+
+| Name            | Description                         |
+| --------------- | ----------------------------------- |
+| accountId       | AWS account ID                      |
+| apiKey          | AWS Access Key ID                   |
+| apiSecret       | AWS Secret Access Key               |
+| consoleUsername | AWS console username                |
+| consolePassword | AWS console password                |
+| deployer        | User who created the UDF deployment |
+| regions         | Supported AWS regions               |
+| services        | Supported AWS services              |
+| roleArn         | AWS Role ARN                        |
+| instanceArn     | AWS Instance ARN                    |
+| --------------- | ----------------------------------- |
 
 ## Support
 
